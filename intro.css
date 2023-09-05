@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text&family=Lato:ital,wght@0,300;1,300;1,400&family=Poppins:wght@700&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color:  rgb(65, 65, 62);
+
+  padding: 58px;
+  height: 188vh;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding:18px 5px;
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(175, 213, 238);
+  border-radius: 30px 30px;
+  width: 12rem;
+  height: 1.5rem;
+  border: none;
+  
+  margin:30px 0px;
+}
+
+
+.sidebar nav li:hover{
+  background-color: rgb(105, 170, 235);
+  
+}
+
+
+
+.sidebar nav li a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+  
+}
+.infocontainer {
+  height: 56vh;
+  width: 80vw;
+  margin: 155px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  font-family: "Gill Sans";
+  padding-left: 5%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.hello {
+  font-size: 40px;
+}
+.name {
+  font-size: 70px;
+  font-style: bold;
+  padding-top: 4px;
+  color: rgb(56, 59, 58);
+}
+.about {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.btn {
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(90, 40, 143);
+  color: white;
+  border-radius: 7px 7px;
+  width: 14rem;
+  height: 2.3rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+.btn:hover {
+  background-color: rgb(92, 13, 194);
+}
+.devpic img {
+  margin-right: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #6e0c84; /* Add a color border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+  background-color: #f0f0f0; /* Add a background color */
+}
+
+.contactform {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  padding: 0 34px;
+  padding-top: 100px;
+}
+
+.contactform h1 {
+ 
+  margin-bottom: 60px;
+}
+
+.contactform div {
+  padding: 13px 0;
+}
+#emailHelp {
+  font-size: 12px;
+  color: rgb(66, 61, 61);
+  margin: 0 5px;
+}
+
+.social-icons {
+  display: flex; /* Arrange icons in a row */
+
+  padding: 8px 0;
+  align-items: center; /* Center vertically */
+}
+
+.icon {
+  padding: 9px 9px;
+
+  margin: 0 2px; /* Add space between icons */
+}
+
+.icon img {
+  margin: 10px;
+  width: 50px; /* Adjust the width of the icons as needed */
+  height: 50px; /* Adjust the height of the icons as needed */
+  border-radius: 90%; /* Make the icons circular for Twitter */
+
+  transition: 3s;
+}
+
+.icon:hover {
+  background: #84729e;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 20%;
+}
+
+.blogItem {
+  margin: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn-blog {
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(90, 40, 143);
+  color: white;
+  border-radius: 7px 7px;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  font-size: 0.8rem;
+  margin: 20px 10px;
+}
+.btn-blog:hover {
+  background-color: rgb(92, 13, 194);
+}
+
+.introcontainer {
+  height: 30vh;
+  width: 10vh;
+  margin: 15px auto;
+  
+  justify-content: space-around;
+}
+.devintro {
+  margin: 90px 0;
+  font-family: "Gill Sans", "Gill Sans MT",  "Trebuchet MS", sans-serif;
+  padding-left: 5%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-services{
+  display: flex;
+  font-size: 40rem;
+}
+
+.nav-menu{
+  display: flex;
+  font-size: 80rem;
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+
+  .col-lg-6{
+    margin: 70px;
+  }
+
+
+  /* intro fix in phone */
+  @media (max-width : 412px){
+    *{
+  
+     
+     .main{
+      width: 20vh;
+     }
+     .devintro{
+      padding-top: 50%;
+      margin: 0px -186px;
+      margin-left: 6px;
+     }
+
+     
+    .sidebar{
+      background-color: rgb(119, 126, 124);
+      padding: 0px;
+      height: 35vh;
+      width: 180px;
+      border: 30px;
+      border-radius: 0px 0px 30px 0px;
+      padding-top: 26px;
+    }
+    .sidebar nav li {
+      list-style: none;
+    font-size: 17px;
+    padding: 8px 0px;
+    font-family: "Bebas Neue";
+    cursor: pointer;
+    background-color: rgb(175, 213, 238);
+    border-radius: 30px 30px;
+    width: 7rem;
+    height: 1.1rem;
+    border: none;
+    margin: 19px 19px;
+    }
+
+ 
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 10px;  
+  }
+.delete{
+  margin-left: 113px;
+}
+
+}
+  
+  }

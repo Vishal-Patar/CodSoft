@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text&family=Lato:ital,wght@0,300;1,300;1,400&family=Poppins:wght@700&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(93, 93, 92);
+
+  padding: 58px;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding:18px 5px;
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(175, 213, 238);
+  border-radius: 30px 30px;
+  width: 12rem;
+  height: 1.5rem;
+  border: none;
+  
+  margin:30px 0px;
+}
+
+
+.sidebar nav li:hover{
+  background-color: rgb(105, 170, 235);
+  
+}
+
+
+
+.sidebar nav li a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 6vw;
+}
+
+.container {
+  display: flex;
+ 
+}
+.infocontainer {
+  height: 56vh;
+  width: 80vw;
+  margin: 155px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 5%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+}
+.hello {
+  font-size: 40px;
+}
+.name {
+  font-size: 60px;
+  font-style: bold;
+  padding-top: 4px;
+  color: rgb(54, 13, 104);
+}
+.about {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.btn {
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(90, 40, 143);
+  color: white;
+  border-radius: 7px 7px;
+  width: 14rem;
+  height: 2.3rem;
+  border: none;
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+.btn:hover {
+  background-color: rgb(92, 13, 194);
+}
+.devpic img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #6e0c84; /* Add a color border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+  background-color: #f0f0f0; /* Add a background color */
+}
+
+
+/* ____contact me __ */
+.contactform {
+  display: flex;
+
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  padding: 0 34px;
+  padding-top: 100px;
+}
+
+.contactform h1 {
+  text-shadow: 4px 2px 4px rgba(3, 0, 6, 0.5);
+  margin-bottom: 60px;
+}
+
+.contactform div {
+  padding: 13px 0;
+}
+#emailHelp {
+  font-size: 12px;
+  color: rgb(66, 61, 61);
+  margin: 0 5px;
+}
+
+.social-icons {
+  display: flex; /* Arrange icons in a row */
+
+  padding: 8px 0;
+  align-items: center; /* Center vertically */
+}
+
+.icon {
+  padding: 9px 9px;
+
+  margin: 0 2px; /* Add space between icons */
+}
+
+.icon img {
+  margin: 10px;
+  width: 50px; /* Adjust the width of the icons as needed */
+  height: 50px; /* Adjust the height of the icons as needed */
+  border-radius: 90%; /* Make the icons circular for Twitter */
+
+  transition: 3s;
+}
+
+.icon:hover {
+  background: #84729e;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 20%;
+}
+
+.blogItem {
+  margin: 40px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.blogcontainer{
+ 
+  margin-left: 50px;
+}
+
+.btn-blog {
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(90, 40, 143);
+  color: white;
+  border-radius: 7px 7px;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  font-size: 0.8rem;
+  margin: 20px 10px;
+}
+.btn-blog:hover {
+  
+  background-color: rgb(92, 13, 194);
+}
+
+.introcontainer {
+  height: 30vh;
+  width: 10vh;
+  margin: 15px auto;
+  
+  justify-content: space-around;
+}
+.devintro {
+  margin: 90px 0;
+  font-family: "Gill Sans", "Gill Sans MT",  "Trebuchet MS", sans-serif;
+  padding-left: 5%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-services{
+  display: flex;
+  font-size: 40rem;
+}
+
+.nav-menu{
+  display: flex;
+  font-size: 40rem;
+
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+ 
+  
+}
+.delete{
+  margin-left: 230px;
+}
+
+.sidebarGo{
+  transform: translate(-443px, 0);
+  position: absolute;
+}
+#photo{
+  padding-top: 199px;
+}
+
+
+/* ______fix in phone_______ */
+
+
+
+@media (max-width : 412px){
+  *{
+
+   
+   
+
+   }
+   .devintro{
+    padding-top: 50%;
+    margin: 0px -186px;
+    margin-left: 6px;
+   }
+   .devinfo {
+    
+    padding-bottom: 4px;
+    padding-right: 0px;
+  
+  
+   }
+   .main{
+    width: 0vh;
+   }
+  .sidebar{
+    background-color: rgb(119, 126, 124);
+    padding: 0px;
+    height: 35vh;
+    width: 180px;
+    border: 30px;
+    border-radius: 0px 0px 30px 0px;
+    padding-top: 26px;
+  }
+  .sidebar nav li {
+    list-style: none;
+  font-size: 17px;
+  padding: 8px 0px;
+  font-family: "Bebas Neue";
+  cursor: pointer;
+  background-color: rgb(175, 213, 238);
+  border-radius: 30px 30px;
+  width: 7rem;
+  height: 1.1rem;
+  border: none;
+  margin: 19px 19px;
+  }
+
+
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 4px;
+  left: 10px;  
+}
+.delete{
+margin-left: 86px;
+}
+
+#photo{
+  padding-top: 53px;
+  margin-left: 48px;
+}
+.infocontainer{
+  height: 70vh;
+  width: 17vh;
+  margin: 341px 0px;
+  display: flex;
+ margin-left: -196px;
+}
+/* navbar end */
+.hello {
+  font-size: 20px;
+  width: 130px;
+}
+.name {
+  width: 300px;
+  font-size: 2rem;
+  font-style: bold;
+  padding-top: 4px;
+  color: rgb(54, 13, 104);
+}
+.about {
+  padding-right: 3px;
+  width: 343px;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.btn {
+ 
+  border-radius: 7px 7px;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  font-size: 1rem;
+  margin: 20px 10px;
+}
+
+
+.devintro {
+  margin: 90px 0;
+  font-family: "Gill Sans", "Gill Sans MT",  "Trebuchet MS", sans-serif;
+  padding-left:2px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding:190px;
+
+}
+.social-icons{
+  width: 100px;
+  margin-right: 169px;
+  padding: 8px 0;
+  align-items: center;
+  margin: 0px -55px;
+  
+}
+.icon{
+  padding: 9px 19px;
+
+  margin: 0 5px;
+  width: 3.2rem;
+
+
+}
+.icon:hover {
+  border: #6e0c84;
+  background: #6f5b7b;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 20%;
+}
+
+.container{
+  padding-right: 76px;
+}
+
+  }
